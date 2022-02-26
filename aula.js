@@ -1,3 +1,22 @@
+const nomes = ['Ana Maria', 'Antônio', 'Rodrigo', 'Alex', 'Cristina']
+const apenasA = nomes.filter(nome => nome.startsWith('A'))
+console.log(apenasA);
+
+// const numeros = [1, 2]
+// numeros[4] = 2
+// console.log(numeros);
+
+// const numeros = [1, 2]
+// numeros[0] = 2
+
+// const v1 = []
+// console.log(v1.length)
+
+// v1[0] = 3.4
+// v1[10] = 2
+// v1[2] = true
+// console.log(v1.length);
+
 // == ===
 // console.log([] == false)
 // console.log(null == undefined)
